@@ -1,0 +1,70 @@
+*{
+    font-family:"poppins";
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    padding: 20px;
+}
+img{
+    width: 100%;
+    max-width: 300px;
+    border-radius: 30px;
+}
+.movie-search{
+    display: flex;
+    justify-content: center;
+    margin: 100px 0;
+
+}
+.logo{
+  font-size: 50px;
+  max-width: 100%;
+  width: 100%;
+  text-align: center;
+  color: blueviolet;
+}
+input{
+    padding: 20px 10px;
+    font-size: 16px;
+    border: 1px solid rgb(192, 192, 192);
+    border-radius: 20px;
+    width: 100%;
+    max-width: 500px;
+}
+button{
+    padding: 20px;
+    margin: 0px 20px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    transition: 0.3s ease;
+}
+
+button:hover{
+  background-color: blueviolet;
+  scale: 1.1;
+}
+.shrek{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.movie-content{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  row-gap: 30px;
+  justify-self: center;
+  justify-items: center;
+  justify-content: center;
+  
+}
+h1{
+  font-size: 18px;
+  width: 100%;
+  max-width: 300px;
+}
